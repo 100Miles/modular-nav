@@ -28,14 +28,22 @@ a {
 }
 
 .nav li {
-  display: block;
+  display: inline-block;
 }
 
 a:hover {
   background-color: #0074d9;
-  color: white;
+  color: #fff;
 }
 
 header {
   background-color: #e2e2e2;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+  }
+
 }
